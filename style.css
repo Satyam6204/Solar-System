@@ -40,6 +40,20 @@ body{
     border-right: 1px solid blue ;
 }
 
+#linki{
+    height: 200px;
+    display: flex;
+    
+    column-gap: 30px;
+    border-radius: 10px;
+    border: 1px solid #444644;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 2px 2px 1px 1px white;
+    }
+
 
 #naptune{
     
@@ -194,35 +208,53 @@ body{
 .img1:hover{
     border: 5px dotted red;
     border-radius: 100px;
+    height: 120px;
+    width: 120px;
+    
+
 }
 .img2:hover{
-    border: 5px dotted rgb(0, 255, 149);
+    border: 1px dotted rgb(0, 255, 149);
     border-radius: 100px;
+    height: 110px;
+    width: 110px;
 }
 .img3:hover{
-    border: 5px dotted rgb(17, 0, 255);
+    border: 1px dotted rgb(17, 0, 255);
     border-radius: 100px;
+    height: 130px;
+    width: 130px;
 }
 .img4:hover{
-    border: 5px dotted rgb(255, 242, 0);
+    border: 1px dotted rgb(255, 242, 0);
     border-radius: 100px;
+    height: 160px;
+    width: 160px;
     
 }
 .img5:hover{
-    border: 5px dotted rgb(0, 255, 234);
+    border: 1px dotted rgb(0, 255, 234);
     border-radius: 100px;
+    height: 100px;
+    width: 100px;
 }
 .img6:hover{
-    border: 5px dotted rgb(0, 255, 42);
+    border: 1px dotted rgb(0, 255, 42);
     border-radius: 100px;
+    height: 85px;
+    width: 85px;
 }
 .img7:hover{
-    border: 5px dotted rgb(255, 0, 187);
+    border: 1px dotted rgb(255, 0, 187);
     border-radius: 100px;
+    height: 80px;
+    width: 80px;
 }
 .img8:hover{
-    border: 5px dotted red;
+    border: 1px dotted red;
     border-radius: 100px;
+    height: 60px;
+    width: 60px;
 }
 
 .planet1{
