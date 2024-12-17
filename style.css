@@ -9,6 +9,10 @@ body{
     background-repeat: no-repeat ;
     background-size:100% ;
 }
+.s_img{
+    height: 200px;
+    width: 200px;
+}
 .msg{
     display: flex;
     justify-content: space-evenly;
@@ -43,15 +47,13 @@ body{
 #linki{
     height: 200px;
     display: flex;
-    
+    border-top: 1px solid #333;
     column-gap: 30px;
-    border-radius: 10px;
-    border: 1px solid #444644;
+    border-radius: 10px; 
     width: 100%;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    box-shadow: 2px 2px 1px 1px white;
     }
 
 
@@ -331,5 +333,7 @@ body{
         }
     
     }
+
+  
 
     
